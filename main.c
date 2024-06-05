@@ -182,9 +182,6 @@ int main()
     if (!window)
         return EXIT_FAILURE;
 
-    //create a clock to measure time
-
-    //create an image, a texture and a sprite
     sfImage* image = sfImage_create(CHUNK_SIZE, CHUNK_SIZE);
     sfTexture* texture = sfTexture_create(CHUNK_SIZE, CHUNK_SIZE);
     sfSprite* sprite = sfSprite_create();
